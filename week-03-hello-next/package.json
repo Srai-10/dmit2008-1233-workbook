@@ -1,5 +1,5 @@
 {
-  "name": "week-04-react-components",
+  "name": "week-03-hello-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,8 +17,4 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9321ec24d913848735cd57ef4872e27c67e0a9fd
