@@ -1,4 +1,5 @@
-
+import AltPageHeading from "@/components/AltPageHeading";
+import { Button, Container, Typography } from '@mui/material';
 export default function Home() {
   return (
       <container maxWidth="sm">
