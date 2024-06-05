@@ -1,8 +1,10 @@
 
 export default function Home() {
   return (
-      <main>
-       <h1>Home Page</h1>
-      </main>
+      <container maxWidth="sm">
+       <AltPageHeading text="Home Page" />
+       <Typography>Welcome to the Home Page!</Typography>
+       <button variant="Outlined">Some Button</button>
+      </container>
   );
 }
