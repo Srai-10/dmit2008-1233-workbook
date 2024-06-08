@@ -1,7 +1,11 @@
 import { Typography } from "@mui/material";
-
-export default function AltPageHeading() {
-    return <Typography component="h1" variant="h3">
+import variables from '@/styles/variables.module.scss';
+export default function AltPageHeading({ text }) {
+    return (
+         <Typography 
+         sx={{ color: variables.primaryColor}}
+         component="h1" variant="h2">
         {text}
     </Typography>
+    );
 }
